@@ -1,0 +1,6 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./echo.sh
+hello world
+hello       world
+fail message here # Red color
+success message here # Green color
+warning message here # Yellow color
