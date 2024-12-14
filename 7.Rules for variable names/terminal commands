@@ -1,0 +1,8 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./variable_name.sh
+first variable
+second variable
+Ajinkya Mukund Rahul
+./variable_name.sh: line 17: 3nameVariable=Ajinkya: command not found
+./variable_name.sh: line 18: my-name=Ajinkya: command not found
+./variable_name.sh: line 20: ${3nameVariable}: bad substitution
+name
