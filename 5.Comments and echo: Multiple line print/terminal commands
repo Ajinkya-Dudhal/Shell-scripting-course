@@ -1,0 +1,22 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./echo.sh
+my
+name
+is
+Ajinkya
+
+my name is Ajinkya
+
+my \
+name \
+is \
+Ajinkya
+
+my name          is      Ajinkya
+
+my name
+         is
+             Ajinkya
+
+my name
+is
+Ajinkya
