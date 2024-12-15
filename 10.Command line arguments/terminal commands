@@ -1,0 +1,5 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./command_line_args.sh Ajinkya 29
+./command_line_args.sh
+Ajinkya
+29
+My name is Ajinkya and my age is {age}.
