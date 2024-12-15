@@ -1,0 +1,7 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./read_variable.sh
+Enter your name: Ajinkya
+Enter your age: 29
+Enter your password:
+Hello Ajinkya, my age is 29 and my password is pwd.
+
+# If you do not define any of the variable and still use it in echo command, then nothing will be printed in place of that variable.
