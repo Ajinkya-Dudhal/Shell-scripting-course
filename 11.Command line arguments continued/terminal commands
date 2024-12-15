@@ -1,0 +1,20 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./command_line_args.sh 1 2 101 102
+1
+2
+11
+12
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./command_line_args.sh abc 2 101 102
+abc
+2
+abc1
+abc2
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./command_line_args.sh Ajinkya Dudhal 29
+My name is Ajinkya and my age is Dudhal.
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./command_line_args.sh "Ajinkya Dudhal" 29
+My name is Ajinkya Dudhal and my age is 29.
+2                  # Number of command line args
+Ajinkya Dudhal 29  # Command line args as separate strings
+Ajinkya Dudhal 29  # Command line args as a single string
