@@ -1,0 +1,8 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./assign-command-output-to-variable.sh
+/home/ajinkya/python-clients/Shell-scripting
+/home/ajinkya/python-clients/Shell-scripting
+/home/ajinkya/python-clients/Shell-scripting
+12/17/24-11:38:09
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ date
+Tue Dec 17 11:39:19 IST 2024
