@@ -7,7 +7,7 @@ echo "${string:1}"    # bcajinkyaabcxyz
 echo "${string:3}"    # ajinkyaabcxyz
 
 echo "${string:0:3}"  # abc (3 steps ahead of 0th index)
-echo "${string:3:3}"  # bca (3 steps ahead of 3rd index)
+echo "${string:3:3}"  # aji (3 steps ahead of 3rd index)
 
 echo "${string: -1}"  # z
 echo "${string: -5}"  # bcxyz
