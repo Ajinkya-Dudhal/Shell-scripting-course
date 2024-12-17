@@ -1,0 +1,4 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./readonly-variable.sh
+abc
+./readonly-variable.sh: line 8: name: readonly variable
+abc
