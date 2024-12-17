@@ -1,0 +1,22 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./substring.sh
+abcajinkyaabcxyz
+bcajinkyaabcxyz
+ajinkyaabcxyz
+
+abc
+aji
+
+z
+bcxyz
+
+ajinkyaabcxyz
+xyz
+
+abcajinkyaa
+a
+
+xyzajinkyaabcxyz
+xyzajinkyaxyzxyz
+
+ajinkyaabcxyz
+ajinkyaxyz
