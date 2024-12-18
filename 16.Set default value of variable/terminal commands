@@ -1,0 +1,4 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./default-value.sh
+Enter variable-1:     # Nothing passed to the var1
+Hello World           # So, it printed default value 'World'
+My name is Ajinkya
