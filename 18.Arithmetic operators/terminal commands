@@ -1,0 +1,10 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./arithmetic-operator.sh
+11  # a+b
+11  # 5+6
+-1  # a-b
+30  # a*b
+0   # a/b
+5   # a%b
+8   # 2**3
+6   # a++
+9   # a+=3
