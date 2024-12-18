@@ -1,0 +1,8 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./if-variable-value-not-set.sh          # 'name' variable is set
+I am here.
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./if-variable-value-not-set.sh          # 'name' variable is not set
+./if-variable-value-not-set.sh: line 4: name:  Please set variable value !
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./if-variable-value-not-set.sh          # Command line var is not passed
+./if-variable-value-not-set.sh: line 7: 1:  Please pass variable value !
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./if-variable-value-not-set.sh Ajinkya  # Command line var is passed
+I am here.
