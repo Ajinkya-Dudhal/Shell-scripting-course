@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# There are three methods to define function
 function install()
 {
     echo "installation code !"
