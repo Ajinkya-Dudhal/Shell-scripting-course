@@ -1,0 +1,8 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./variables-in-functions.sh
+First nginx
+myname=            # Defined in function, but not executed yet.
+Installing nginx
+myname=Ajinkya     # Defined in function and it is executed.
+Second nginx
+Configuring nginx
+var=               # Defined in function, but defined as local variable, so not printed.
