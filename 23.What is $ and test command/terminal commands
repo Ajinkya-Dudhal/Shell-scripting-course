@@ -1,0 +1,22 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ pwd
+/home/ajinkya/python-clients/Shell-scripting
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ echo $?
+0    # Last command executed successfully.
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ oapjskdn
+oapjskdn: command not found
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ echo $?
+127  # Last command failed.
+
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ a=5
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ test $a -eq 5
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ echo $?
+0    # test command executed successfully.
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ test $a -eq 10
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ echo $?
+1    # test command failed.
