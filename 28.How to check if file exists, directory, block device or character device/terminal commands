@@ -1,0 +1,5 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./if-files.sh
+/home/ajinkya/python-clients/Shell-scripting/echo.sh exists
+/home/ajinkya/python-clients/Shell-scripting/echo.sh has a read permission
+/home/ajinkya/python-clients/Shell-scripting/echo.sh has a write permission
+/home/ajinkya/python-clients/Shell-scripting/echo.sh has a execute permission
