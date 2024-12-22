@@ -1,0 +1,6 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./if-string.sh
+./if-string.sh: line 7: [: too many arguments
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./if-string.sh
+Strings are not equal.
+Length of string is non-zero.
