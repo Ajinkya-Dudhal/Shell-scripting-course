@@ -1,0 +1,42 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ls && echo "Last command executed successfully !"
+arithmetic-operator.sh                echo.sh           if-and-operator.sh  if-number.sh                  read_variable.sh    test
+assign-command-output-to-variable.sh  first.sh          if-condition.sh     if-string.sh                  second.sh           variable_name.sh
+command_line_args.sh                  function-args.sh  if-files.sh         if-variable-value-not-set.sh  string-variable.sh  variable.sh
+default-value.sh                      function.sh       if-not.sh           readonly-variable.sh          substring.sh        variables-in-functions.sh
+Last command executed successfully !
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ls /trr && echo "Last command executed successfully !"
+ls: cannot access '/trr': No such file or directory
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ echo $?
+2
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ls && echo "Last command executed successfully !" && date
+arithmetic-operator.sh                echo.sh           if-and-operator.sh  if-number.sh                  read_variable.sh    test
+assign-command-output-to-variable.sh  first.sh          if-condition.sh     if-string.sh                  second.sh           variable_name.sh
+command_line_args.sh                  function-args.sh  if-files.sh         if-variable-value-not-set.sh  string-variable.sh  variable.sh
+default-value.sh                      function.sh       if-not.sh           readonly-variable.sh          substring.sh        variables-in-functions.sh
+Last command executed successfully !
+Mon Dec 23 16:05:48 IST 2024
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ping -c 1 8.8.8.8 && echo "Internet is working fine"
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=116 time=2.92 ms
+--- 8.8.8.8 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.921/2.921/2.921/0.000 ms
+Internet is working fine
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ping -c 1 8.8.8.8>/dev/null && echo "Internet is working fine"
+Internet is working fine
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ uname
+Linux
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ echo $UID
+1003
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ chmod +x if-and-operator.sh
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./if-and-operator.sh
+Operating system is Linux, but user is not root.
