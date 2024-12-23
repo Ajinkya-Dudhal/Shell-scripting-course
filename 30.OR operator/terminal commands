@@ -1,0 +1,22 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ echo "My name is Ajinkya" || ls
+My name is Ajinkya
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ echo $?
+0
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ echo1 "My name is Ajinkya" || ls
+Command 'echo1' not found, did you mean:
+  command 'echo' from deb coreutils
+Try: apt install <deb name>
+arithmetic-operator.sh                first.sh            if-files.sh        if-variable-value-not-set.sh  substring.sh
+assign-command-output-to-variable.sh  function-args.sh    if-not.sh          readonly-variable.sh          test
+command_line_args.sh                  function.sh         if-number.sh       read_variable.sh              variable_name.sh
+default-value.sh                      if-and-operator.sh  if-or-operator.sh  second.sh                     variable.sh
+echo.sh                               if-condition.sh     if-string.sh       string-variable.sh            variables-in-functions.sh
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ echo1 "My name is Ajinkya" || echo "Before ls" || ls
+Command 'echo1' not found, did you mean:
+  command 'echo' from deb coreutils
+Try: apt install <deb name>
+Before ls
+
