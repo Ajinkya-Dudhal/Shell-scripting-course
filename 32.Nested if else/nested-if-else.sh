@@ -9,6 +9,7 @@ then
         echo "Number is greater than 50."
     else
         echo "Number is between 10 and 50."
+    fi
 else
     echo "Number is less than or equal to 10."
 fi
