@@ -20,3 +20,7 @@ Command 'echo1' not found, did you mean:
 Try: apt install <deb name>
 Before ls
 
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./if-or-operator.sh
+do you want to continue (Y/y/yes) YeS
+You want it !
+
