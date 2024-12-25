@@ -1,0 +1,30 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ bash -x debug.sh
++ echo 'My name is Ajinkya'
+My name is Ajinkya
++ var=5
++ echo 'var is 5'
+var is 5
++ testvar = 10
+debug.sh: line 6: testvar: command not found
++ echo 'testvar is '
+testvar is
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./debug1.sh
++ echo 'My name is Ajinkya'
+My name is Ajinkya
++ var=5
++ echo 'var is 5'
+var is 5
++ set +x
+./debug1.sh: line 11: testvar: command not found
+testvar is
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./debug2.sh
++ set -e
++ echo 'My name is Ajinkya'
+My name is Ajinkya
++ var=5
++ echo 'var is 5'
+var is 5
++ set +x
+./debug2.sh: line 12: testvar: command not found
