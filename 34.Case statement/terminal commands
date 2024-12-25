@@ -1,0 +1,9 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./case-statement.sh "restart"
+Going to restart
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./case-statement.sh "stop"
+Going to stop
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./case-statement.sh "start!!"
+./case-statement.sh "start./case-statement.sh "stop""
+Please enter correct cmd line args...
