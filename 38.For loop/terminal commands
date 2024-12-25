@@ -1,0 +1,27 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./for-loop.sh
+Ajinkya
+Priyanka
+Onkar
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./for-loop.sh
+Ajinkya Priyanka Onkar
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./for-loop.sh
+1
+2
+3
+4
+5
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./for-loop.sh
+abc.txt
+arithmetic-operator.sh
+assign-command-output-to-variable.sh
+case-statement-regex.sh
+case-statement.sh
+command_line_args.sh
+default-value.sh
+echo.sh
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./for-loop.sh
+abc.txt
