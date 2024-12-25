@@ -1,0 +1,20 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./case-statement.sh START
+Going to start
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./case-statement.sh STOP
+Going to stop
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./case-statement.sh STop
+Going to stop
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./case-statement-regex.sh
+Enter y or n: YEs
+You entered yes !
+Enter y or n: YEs
+You entered yes !
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./case-statement-regex.sh
+Enter y or n: Y
+You entered yes !
+Enter y or n: Y
+You entered yes !
