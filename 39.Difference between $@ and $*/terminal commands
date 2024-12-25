@@ -1,0 +1,7 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./commandline-args.sh Ajinkya Priyanka Onkar
+====== loop one ======
+Ajinkya
+Priyanka
+Onkar
+====== loop two ======
+Ajinkya Priyanka Onkar
