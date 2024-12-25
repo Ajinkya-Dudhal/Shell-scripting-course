@@ -1,0 +1,18 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./select-statement.sh
+1) linux
+2) windows
+3) mac
+#? 3
+You selected mac
+#? 1
+You selected linux
+#? 5
+Invalid !
+#?
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./select-statement.sh
+1) linux
+2) windows
+3) mac
+Please select os: 1
+You selected linux
