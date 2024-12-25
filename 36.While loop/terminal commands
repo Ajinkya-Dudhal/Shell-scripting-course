@@ -1,0 +1,58 @@
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ ./while-loop.sh
+Enter a number: 5
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+
+ajinkya@hcl-rapid-platform:~/python-clients/Shell-scripting$ bash -x while-loop.sh  # To run shell script in debug mode
++ read -p 'Enter a number: ' num
+Enter a number: 2
++ i=1
++ [[ 1 -le 10 ]]
++ echo 2
+2
++ (( i++ ))
++ [[ 2 -le 10 ]]
++ echo 4
+4
++ (( i++ ))
++ [[ 3 -le 10 ]]
++ echo 6
+6
++ (( i++ ))
++ [[ 4 -le 10 ]]
++ echo 8
+8
++ (( i++ ))
++ [[ 5 -le 10 ]]
++ echo 10
+10
++ (( i++ ))
++ [[ 6 -le 10 ]]
++ echo 12
+12
++ (( i++ ))
++ [[ 7 -le 10 ]]
++ echo 14
+14
++ (( i++ ))
++ [[ 8 -le 10 ]]
++ echo 16
+16
++ (( i++ ))
++ [[ 9 -le 10 ]]
++ echo 18
+18
++ (( i++ ))
++ [[ 10 -le 10 ]]
++ echo 20
+20
++ (( i++ ))
++ [[ 11 -le 10 ]]
