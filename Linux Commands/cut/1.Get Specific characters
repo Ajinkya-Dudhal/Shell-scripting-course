@@ -1,0 +1,40 @@
+ajinkya@hcl-rapid-platform:~$ cat names
+firstname
+Kiara
+Advani
+Siddharth
+Malhotra
+Ajay
+Devgan
+Salman
+Khan
+ajinkya@hcl-rapid-platform:~$ cut -c1 names   # To get first character
+f
+K
+A
+S
+M
+A
+D
+S
+K
+ajinkya@hcl-rapid-platform:~$ cut -c1,3 names   # To get 1st and 3rd character
+fr
+Ka
+Av
+Sd
+Ml
+Aa
+Dv
+Sl
+Ka
+ajinkya@hcl-rapid-platform:~$ cut -c1-3 names   # To get first three characters
+fir
+Kia
+Adv
+Sid
+Mal
+Aja
+Dev
+Sal
+Kha
